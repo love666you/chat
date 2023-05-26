@@ -247,9 +247,9 @@ $(document).ready(function() {
   if (apiKey) {
      $(".settings-common .api-key").val(apiKey);
   }
-  else{
-    $(".settings-common .api-key").val(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);
-  }
+  //else{
+  //  $(".settings-common .api-key").val(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);
+ // }
 
   // apiKey输入框事件
   $(".settings-common .api-key").blur(function() { 
