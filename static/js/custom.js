@@ -247,10 +247,7 @@ $(document).ready(function() {
   if (apiKey) {
      $(".settings-common .api-key").val(apiKey);
   }
- else
- {
-     $(".settings-common .api-key").val(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);
- }
+
 
   // apiKey输入框事件
   $(".settings-common .api-key").blur(function() { 
